@@ -8,14 +8,14 @@ In today's assignment we're going to practice using state in React by building a
 
 In the terminal, "cd" into the folder of your project and install dependencies by running `npm install`. Once that's done, you can start the project by running `npm run dev`.
 
-### Part one - create a clock in App.jsx
+### Part one - Create a clock in App.jsx
 
 1. Use `new Date().toLocaleTimeString()` as clock state to show the current time.
 2. Use `setInterval` to update state every 1000 ms. `setInterval` should be called inside `useEffect`.
 
-### Part two - create a clock component
+### Part two - Create a clock component
 
-1. Move your clock into a component and give your clock two props: `city` and `timeZone`.
+1. Move your clock code into a component and give your clock two props: `city` and `timeZone`.
 2. Use the `city` prop to show the city title of the clock and the `timeZone` prop to show time at that timezone.
 
 ### :books: Reading List
