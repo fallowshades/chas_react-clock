@@ -10,13 +10,13 @@ In the terminal, "cd" into the folder of your project and install dependencies b
 
 ### Part one - create a clock in App.jsx
 
-1. use `new Date().toLocaleTimeString()` as clock state to show the current time
-2. use `setInterval` to update state every 1000 ms. `setInterval` should be called inside `useEffect`
+1. Use `new Date().toLocaleTimeString()` as clock state to show the current time.
+2. Use `setInterval` to update state every 1000 ms. `setInterval` should be called inside `useEffect`.
 
 ### Part two - create a clock component
 
-1. Move your clock into a component and give your clock two props: city and timeZone
-2. Use the city prop to show the title of the clock and the timeZone prop to show time at that timezone
+1. Move your clock into a component and give your clock two props: `city` and `timeZone`.
+2. Use the `city` prop to show the city title of the clock and the `timeZone` prop to show time at that timezone.
 
 ### :books: Reading List
 
