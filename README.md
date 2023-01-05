@@ -20,7 +20,7 @@ In the terminal, "cd" into the folder of your project and install dependencies b
 
 ### :books: Reading List
 
-- [JavaScript Date toLocaleString()](https://www.w3schools.com/jsref/jsref_tolocalestring.asp)
+- [JavaScript Date toLocaleTimeString()](https://www.w3schools.com/jsref/jsref_tolocaletimestring.asp)
 
 ---
 
