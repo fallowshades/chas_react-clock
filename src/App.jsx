@@ -8,6 +8,7 @@ import TimerAssignment4 from './TimerAssignment4'
 function App() {
   return (
     <div>
+      <TimerAssignment4 initialSeconds={5} /> {/* 5 seconds*/}
       <TimerAssignment4 initialSeconds={300} /> {/* 5 minutes */}
       <TimerAssignment4 initialSeconds={180} /> {/* 3 minutes */}
       <TimerAssignment4 initialSeconds={600} /> {/* 10 minutes */}

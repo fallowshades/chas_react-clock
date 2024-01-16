@@ -19,6 +19,9 @@ const TimerAssignment4 = ({ initialSeconds }) => {
   const minutes = Math.floor(seconds / 60)
   const remainingSeconds = seconds % 60
 
+  if (minutes == 0 && remainingSeconds == 0)
+    return <div className="you-dead">you have officially died..</div>
+
   return (
     <div>
       {minutes}:
