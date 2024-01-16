@@ -18,6 +18,16 @@ In the terminal, "cd" into the folder of your project and install dependencies b
 1. Move your clock code into a component and give your clock two props: `city` and `timeZone`.
 2. Use the `city` prop to show the city title of the clock and the `timeZone` prop to show time at that timezone.
 
+### Part three - Create a timer
+
+1. Set a starting time state in seconds and count down the number of seconds with `setInterval`. Calculate minutes and seconds from the remaining number of seconds and show the user.
+
+2. The timer should stop when it reaches zero.
+
+### Part four - Create a timer component
+
+The component should have starting time as a prop. Create a few timers with different starting time and add them to App.jsx.
+
 ### :books: Reading List
 
 - [JavaScript Date toLocaleTimeString()](https://www.w3schools.com/jsref/jsref_tolocaletimestring.asp)
